@@ -15,5 +15,6 @@ button:disabled { cursor: not-allowed; opacity: .55; }
 .status { align-self: center; max-width: 310px; color: #687386; font-size: 12px; }
 .status.success { color: #167247; }
 .status.error { color: #b42318; }
-.editor-surface { min-height: 0; height: calc(100vh - 72px); }
+.editor-surface { min-height: 0; height: calc(100vh - 72px); padding: 0 24px; overflow: auto; }
+.editor-surface > .superdoc-wrapper { width: min(100%, 880px); margin-inline: auto; }
 @media (max-width: 900px) { .controls { align-items: stretch; flex-wrap: wrap; } .controls > div:first-child { width: 100%; } .editor-surface { height: calc(100vh - 140px); } }

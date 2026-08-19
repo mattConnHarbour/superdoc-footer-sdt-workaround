@@ -10,9 +10,10 @@
   },
   "dependencies": {
     "@superdoc-dev/fonts": "^0.2.0",
-    "@superdoc-dev/react": "^1.16.2",
+    "@superdoc-dev/react": "1.17.1",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "superdoc": "1.46.2"
   },
   "devDependencies": {
     "@types/react": "^19.2.0",
